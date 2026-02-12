@@ -26,7 +26,6 @@ Make sure you have Python installed. This project relies on the following librar
    cd PDF-Number-Blurrer
 
    Install the required dependencies:
-
 ```bash
 pip install -r requirements.txt
 
