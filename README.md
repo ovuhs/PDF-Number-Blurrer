@@ -28,7 +28,7 @@ Make sure you have Python installed. This project relies on the following librar
 2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
-
+					
 3. 💻 Usage
 Run the script:
 ```bash
