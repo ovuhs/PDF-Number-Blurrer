@@ -24,3 +24,31 @@ Make sure you have Python installed. This project relies on the following librar
    ```bash
    git clone [https://github.com/ovuhs/PDF-Number-Blurrer.git](https://github.com/ovuhs/PDF-Number-Blurrer.git)
    cd PDF-Number-Blurrer
+
+   Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+
+
+💻 Usage
+Run the script:
+
+```bash
+python main.py
+(Note: Replace main.py with whatever you named your script)
+
+
+
+A file dialog window will appear. Select the PDF file you want to process.
+The script will generate a new file in the same directory named filename_blurred_effect.pdf.
+
+⚙️ How It Works
+      1. Scan: The script iterates through every word in the PDF using PyMuPDF.
+      2. Match: It checks if the text matches the number pattern (Regex).
+      3. Capture: It takes a high-resolution snapshot of that specific area.
+      4. Blur: It applies a Gaussian Blur filter using Pillow.
+      5. Redact & Replace: It removes the underlying text (making it unreadable/unsearchable) and inserts the blurred image in its exact position.
+
+📝 License
+This project is open-source and available for personal and educational use.
